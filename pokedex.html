@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    
+    <link rel="icon" href="src/images/pokemon icon.webp" >
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <script src="src/js/pokedex.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+    <title>Pokédex</title>
+</head>
+<body>
+
+    <main>
+
+        <img src="" alt="pokemon" class="pokemon__image">
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span> -
+
+            <span class="pokemon__name"></span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input__search" placeholder="Name or Number" required>
+
+        </form>
+        <div class="buttons">
+            <button class="button btn-prev">&lt; prev</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+    </main>
+    
+</body>
+</html>
